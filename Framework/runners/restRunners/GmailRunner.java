@@ -12,7 +12,7 @@ import io.cucumber.testng.CucumberOptions;
 						"html:target/HTMLReports/htmlreports.html",
 						"json:target/JSONReports/reports.json",
 						"junit:target/JunitReports/junitreports.xml",
-						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:s"}
+						"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
 )
 
 public class GmailRunner extends AbstractTestNGCucumberTests {
